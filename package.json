@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel -w src/ -d lib/",
     "start": "node lib/index.js",
-    "download": "node lib/download.js"
+    "download": "node lib/download.js",
+    "transform": "node lib/transform.js"
   },
   "license": "MIT",
   "dependencies": {
