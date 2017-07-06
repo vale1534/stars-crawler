@@ -14,5 +14,5 @@ stars.forEach((star, index) => {
   star.url = undefined
 })
 
-fs.writeFileSync('stars-3.json', JSON.stringify(stars, '', 2))
+fs.writeFileSync('stars-3.json', JSON.stringify({ stars }, '', 2))
 console.log('Just finish my job.')
