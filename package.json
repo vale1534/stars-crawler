@@ -1,0 +1,20 @@
+{
+  "name": "stars",
+  "version": "1.0.0",
+  "description": "stars crawler",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel -w src/ -d lib/",
+    "start": "node lib/index.js",
+    "download": "node lib/download.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "crawler": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
